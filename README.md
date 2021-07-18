@@ -1,5 +1,5 @@
 # Covalent - DEX Dashboard
-An analytics dashboard presents DEX information. You can see DEX's updated information, including liquidity, swap, other granular and historical data, etc.
+An analytics dashboard presents multi-DEX information. You can see updated information of each DEX, including liquidity, swap, other granular and historical data, etc. The supported DEXs are SushiSwap, QuickSwap, Pangolin, SpiritSwap, and SpookySwap.
 
 ## Dashboard URL
 [https://dex.coinhippo.io](https://dex.coinhippo.io)
