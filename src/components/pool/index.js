@@ -414,11 +414,11 @@ const Pool = props => {
                     {/* each token information */}
                     <CardHeader>
                       <div className="d-flex align-items-center">
-                        <Link to={`/tokens/${poolData[`token_${iToken}`].contract_address}`}>
+                        <Link to={`/${dexData.dex_name}/tokens/${poolData[`token_${iToken}`].contract_address}`}>
                           <img src={poolData[`token_${iToken}`].logo_url} alt="" className="avatar token mb-0 mr-2" />
                         </Link>
                         <div className="mr-2">
-                          <Link to={`/tokens/${poolData[`token_${iToken}`].contract_address}`}>
+                          <Link to={`/${dexData.dex_name}/tokens/${poolData[`token_${iToken}`].contract_address}`}>
                             <span className="mr-2">{poolData[`token_${iToken}`].contract_name}</span>
                             <Badge color="dark" className="ml-0" style={{ fontSize: '.75rem', fontWeight: 400 }}>{poolData[`token_${iToken}`].contract_ticker_symbol}</Badge>
                           </Link>

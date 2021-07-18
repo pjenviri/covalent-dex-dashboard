@@ -472,7 +472,7 @@ const Token = props => {
                   minWidth: '12.5rem'
                 },
                 formatter: (cell, row) => (
-                  <Link to={`/pools/${row.exchange}`} className="d-flex align-items-center">
+                  <Link to={`/${dexData.dex_name}/pools/${row.exchange}`} className="d-flex align-items-center">
                     <img src={row.token_0.logo_url} alt="" className="avatar pool-token-0" />
                     <img src={row.token_1.logo_url} alt="" className="avatar pool-token-1" />
                     <span>{cell}</span>
